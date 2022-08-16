@@ -1,0 +1,205 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: honeydew;
+}
+.navibar{
+    text-decoration: none;
+    overflow: hidden;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    text-align: center;
+}
+.navibar a{
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.navibar a:hover{
+    background-color: goldenrod;
+}
+header{
+    text-align: center;
+    color: cadetblue;
+    font-size: larger;
+}
+.banner{
+    margin-top: 15px;
+    text-align: center;
+    color: cadetblue;
+    font-size: larger;
+}
+
+input{
+    margin-left:20px;
+    margin-top: 15px;
+    width: 70%;
+    height: 5vh;
+    border-radius: 15px;
+    border: none;
+}
+.btn{
+    background-color: rgb(10, 10, 10);
+    width: 72%;
+    border: none;
+    opacity: 0.5;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:goldenrod;
+}
+.register{
+    text-align: center;
+    box-shadow: 0 4px  8px 0 rgba(0,  0, 0, 0.2);
+    max-width: 300px;
+    height: 50vh;
+    background-color: rgb(243, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin: auto;
+}
+.container{
+    box-shadow:0 4px  8px 0 rgba(0,  0, 0, 0.2);
+    background-color: rgb(255, 255, 251);
+    width: 100%;
+}
+.desc p{
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+}
+.desc{
+    text-align: center;
+}
+.present{
+    display: grid;
+    grid-template-areas: 
+    'usercard usercard usercard';
+}
+.usercard{
+    box-shadow: 0 4px  8px 0 rgba(0,  0, 0, 0.2);
+    max-width: 300px;
+    max-height: 500px;
+    background-color: rgb(243, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.contact{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(247, 246, 244);
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    height: 36px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.contact:hover{
+    opacity: 0.5;
+    background-color: goldenrod;
+}
+dd{
+    text-align: center;
+    font-size: smaller;
+}
+dt{
+    text-align: center;
+}
+.imgcontainer{
+    margin-top: 10px;
+    box-shadow:0 4px  8px 0 rgba(0,  0, 0, 0.2);
+    background-color: rgb(255, 255, 251);
+    width: 100%;
+    height: 200px;
+}
+.image{
+    float: left;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+}
+.imgtext{
+    float: right;
+    width: 58%;
+    height: 200px;
+    margin-left: 15px;
+}
+.jina{
+    text-align: center;
+    font-size: larger;
+}
+.view{
+    border: none;
+    background-color: #000;
+    opacity: 0.5;
+    color: #f2f2f2;
+    width:200px;
+    height: 50px;
+    margin-top: 25px;
+}
+.view a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.view:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+.nextcont{
+    width: 100%;
+    height: 379px;
+    box-shadow:0 4px  8px 0 rgba(0,  0, 0, 0.2);
+    background-color: rgb(224, 216, 216);
+    padding-top: 30px;
+}
+.detail{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.imgtext2{
+    float: right;
+    width: 40%;
+    height: 200px;
+    margin-left: 5px;
+}
+.links{
+    background-color: #fdf6f6;
+    box-shadow: 0 4px  8px 0 rgba(0,  0, 0, 0.2);
+    width: 100%;
+    height: 40vh;
+}
+ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+.links a{
+    text-decoration: none;
+    color: gray;
+}
+.links{
+    text-align: center;
+}
+
+.info{
+    margin-left: 10px;
+    text-align: center;
+    font-size: larger;
+}
+.links a:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
